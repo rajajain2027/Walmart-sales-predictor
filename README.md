@@ -23,9 +23,10 @@ python app.py
 
 ```
 walmart_project/
-├── Walmart.csv          ← Kaggle dataset (6,435 rows × 8 cols)
-├── train_model.py       ← Feature engineering + RF training
 ├── app.py               ← Flask web application
+├── data/
+│   ├── rWalmart.csv          ← Kaggle dataset (6,435 rows × 8 cols)     
+│   └── train_model.py       ← Feature engineering + RF training 
 ├── templates/
 │   └── index.html       ← Full dashboard UI
 ├── models/
