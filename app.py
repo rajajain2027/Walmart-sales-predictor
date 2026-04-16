@@ -19,7 +19,7 @@ with open(os.path.join(BASE, "models", "metadata.json")) as f:
 
 FEATURES = META["features"]
 
-df_raw = pd.read_csv(os.path.join(BASE, "Walmart.csv"))
+df_raw = pd.read_csv(os.path.join(BASE,'data',"Walmart.csv"))
 df_raw["Date"] = pd.to_datetime(df_raw["Date"], dayfirst=True)
 df_raw.sort_values(["Store", "Date"], inplace=True)
 
