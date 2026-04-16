@@ -1,0 +1,346 @@
+{
+  "model": "RandomForestRegressor",
+  "n_estimators": 200,
+  "max_depth": 20,
+  "features": [
+    "Store",
+    "Year",
+    "Month",
+    "Week",
+    "Quarter",
+    "DayOfYear",
+    "Holiday_Flag",
+    "Temperature",
+    "Fuel_Price",
+    "CPI",
+    "Unemployment",
+    "Is_Q4",
+    "Is_December",
+    "Is_November",
+    "Lag_1",
+    "Lag_4",
+    "Rolling_4"
+  ],
+  "metrics": {
+    "R2": 0.9816025041705492,
+    "RMSE": 78604.06569872746,
+    "MAE": 49253.47970449142,
+    "MAPE": 4.813733371051197
+  },
+  "train_size": 5004,
+  "test_size": 1251,
+  "total_rows": 6255,
+  "stores": 45,
+  "date_min": "2010-03-05",
+  "date_max": "2012-10-26",
+  "feature_importance": {
+    "Rolling_4": 0.34837,
+    "Lag_1": 0.29622,
+    "Lag_4": 0.24063,
+    "Store": 0.0436,
+    "DayOfYear": 0.01572,
+    "Week": 0.01406,
+    "CPI": 0.01352,
+    "Unemployment": 0.00921,
+    "Month": 0.0052,
+    "Temperature": 0.00519,
+    "Fuel_Price": 0.00267,
+    "Holiday_Flag": 0.00167,
+    "Is_December": 0.0015,
+    "Is_November": 0.00081,
+    "Quarter": 0.00075,
+    "Is_Q4": 0.00045,
+    "Year": 0.00043
+  },
+  "store_stats": {
+    "1": {
+      "avg_sales": 1554643.63,
+      "total_sales": 216095464.75,
+      "max_sales": 2387950.2,
+      "min_sales": 1316899.31
+    },
+    "2": {
+      "avg_sales": 1921712.9,
+      "total_sales": 267118093.21,
+      "max_sales": 3436007.68,
+      "min_sales": 1650394.44
+    },
+    "3": {
+      "avg_sales": 401982.28,
+      "total_sales": 55875536.84,
+      "max_sales": 605990.41,
+      "min_sales": 339597.38
+    },
+    "4": {
+      "avg_sales": 2095287.14,
+      "total_sales": 291244913.02,
+      "max_sales": 3676388.98,
+      "min_sales": 1762539.3
+    },
+    "5": {
+      "avg_sales": 318510.51,
+      "total_sales": 44272960.9,
+      "max_sales": 507900.07,
+      "min_sales": 260636.71
+    },
+    "6": {
+      "avg_sales": 1564727.48,
+      "total_sales": 217497120.4,
+      "max_sales": 2727575.18,
+      "min_sales": 1261253.18
+    },
+    "7": {
+      "avg_sales": 572479.14,
+      "total_sales": 79574601.0,
+      "max_sales": 1059715.27,
+      "min_sales": 372673.61
+    },
+    "8": {
+      "avg_sales": 907486.98,
+      "total_sales": 126140690.16,
+      "max_sales": 1511641.09,
+      "min_sales": 772539.12
+    },
+    "9": {
+      "avg_sales": 544618.24,
+      "total_sales": 75701934.79,
+      "max_sales": 905324.68,
+      "min_sales": 452905.22
+    },
+    "10": {
+      "avg_sales": 1893010.28,
+      "total_sales": 263128429.08,
+      "max_sales": 3749057.69,
+      "min_sales": 1627707.31
+    },
+    "11": {
+      "avg_sales": 1352664.68,
+      "total_sales": 188020390.73,
+      "max_sales": 2306265.36,
+      "min_sales": 1100418.69
+    },
+    "12": {
+      "avg_sales": 1006656.7,
+      "total_sales": 139925281.63,
+      "max_sales": 1768249.89,
+      "min_sales": 802105.5
+    },
+    "13": {
+      "avg_sales": 2005262.05,
+      "total_sales": 278731424.85,
+      "max_sales": 3595903.2,
+      "min_sales": 1633663.12
+    },
+    "14": {
+      "avg_sales": 2017065.28,
+      "total_sales": 280372074.22,
+      "max_sales": 3818686.45,
+      "min_sales": 1479514.66
+    },
+    "15": {
+      "avg_sales": 622830.16,
+      "total_sales": 86573392.43,
+      "max_sales": 1368318.17,
+      "min_sales": 454183.42
+    },
+    "16": {
+      "avg_sales": 520790.37,
+      "total_sales": 72389860.95,
+      "max_sales": 1004730.69,
+      "min_sales": 368600.0
+    },
+    "17": {
+      "avg_sales": 896409.26,
+      "total_sales": 124600887.35,
+      "max_sales": 1309226.79,
+      "min_sales": 635862.55
+    },
+    "18": {
+      "avg_sales": 1082753.42,
+      "total_sales": 150502725.14,
+      "max_sales": 2027507.15,
+      "min_sales": 540922.94
+    },
+    "19": {
+      "avg_sales": 1443895.17,
+      "total_sales": 200701428.81,
+      "max_sales": 2678206.42,
+      "min_sales": 1181204.53
+    },
+    "20": {
+      "avg_sales": 2106672.99,
+      "total_sales": 292827545.38,
+      "max_sales": 3766687.43,
+      "min_sales": 1761016.51
+    },
+    "21": {
+      "avg_sales": 754626.5,
+      "total_sales": 104893083.11,
+      "max_sales": 1587257.78,
+      "min_sales": 596218.24
+    },
+    "22": {
+      "avg_sales": 1029725.4,
+      "total_sales": 143131830.86,
+      "max_sales": 1962445.04,
+      "min_sales": 774262.28
+    },
+    "23": {
+      "avg_sales": 1391990.69,
+      "total_sales": 193486706.5,
+      "max_sales": 2734277.1,
+      "min_sales": 1016756.1
+    },
+    "24": {
+      "avg_sales": 1357331.68,
+      "total_sales": 188669103.32,
+      "max_sales": 2386015.75,
+      "min_sales": 1057290.41
+    },
+    "25": {
+      "avg_sales": 708602.92,
+      "total_sales": 98495806.28,
+      "max_sales": 1295391.19,
+      "min_sales": 558794.63
+    },
+    "26": {
+      "avg_sales": 1003682.42,
+      "total_sales": 139511856.93,
+      "max_sales": 1573982.47,
+      "min_sales": 809833.21
+    },
+    "27": {
+      "avg_sales": 1776260.86,
+      "total_sales": 246900259.77,
+      "max_sales": 3078162.08,
+      "min_sales": 1263534.86
+    },
+    "28": {
+      "avg_sales": 1316538.75,
+      "total_sales": 182998886.05,
+      "max_sales": 2026026.39,
+      "min_sales": 1079669.11
+    },
+    "29": {
+      "avg_sales": 539873.6,
+      "total_sales": 75042430.22,
+      "max_sales": 1130926.79,
+      "min_sales": 395987.24
+    },
+    "30": {
+      "avg_sales": 437543.58,
+      "total_sales": 60818558.06,
+      "max_sales": 519354.88,
+      "min_sales": 369722.32
+    },
+    "31": {
+      "avg_sales": 1394122.05,
+      "total_sales": 193782965.06,
+      "max_sales": 2068942.97,
+      "min_sales": 1198071.6
+    },
+    "32": {
+      "avg_sales": 1168865.16,
+      "total_sales": 162472257.69,
+      "max_sales": 1959526.96,
+      "min_sales": 955463.84
+    },
+    "33": {
+      "avg_sales": 259063.61,
+      "total_sales": 36009842.1,
+      "max_sales": 331173.51,
+      "min_sales": 209986.25
+    },
+    "34": {
+      "avg_sales": 966972.69,
+      "total_sales": 134409203.85,
+      "max_sales": 1620748.25,
+      "min_sales": 836717.75
+    },
+    "35": {
+      "avg_sales": 912445.56,
+      "total_sales": 126829932.89,
+      "max_sales": 1781866.98,
+      "min_sales": 576332.05
+    },
+    "36": {
+      "avg_sales": 370915.86,
+      "total_sales": 51557304.06,
+      "max_sales": 489372.02,
+      "min_sales": 270677.98
+    },
+    "37": {
+      "avg_sales": 518797.72,
+      "total_sales": 72112882.57,
+      "max_sales": 605791.46,
+      "min_sales": 451327.61
+    },
+    "38": {
+      "avg_sales": 387032.05,
+      "total_sales": 53797454.73,
+      "max_sales": 499267.66,
+      "min_sales": 303908.81
+    },
+    "39": {
+      "avg_sales": 1457190.95,
+      "total_sales": 202549542.61,
+      "max_sales": 2554482.84,
+      "min_sales": 1158698.44
+    },
+    "40": {
+      "avg_sales": 964984.32,
+      "total_sales": 134132821.09,
+      "max_sales": 1648829.18,
+      "min_sales": 764014.75
+    },
+    "41": {
+      "avg_sales": 1274358.05,
+      "total_sales": 177135768.9,
+      "max_sales": 2263722.68,
+      "min_sales": 1001790.16
+    },
+    "42": {
+      "avg_sales": 557168.01,
+      "total_sales": 77446353.01,
+      "max_sales": 674919.45,
+      "min_sales": 428953.6
+    },
+    "43": {
+      "avg_sales": 632789.83,
+      "total_sales": 87957786.8,
+      "max_sales": 725043.04,
+      "min_sales": 505405.85
+    },
+    "44": {
+      "avg_sales": 303482.77,
+      "total_sales": 42184104.39,
+      "max_sales": 376233.89,
+      "min_sales": 241937.11
+    },
+    "45": {
+      "avg_sales": 786075.59,
+      "total_sales": 109264507.58,
+      "max_sales": 1682862.03,
+      "min_sales": 617207.58
+    }
+  },
+  "monthly_avg": {
+    "1": 923884.55,
+    "2": 1051096.97,
+    "3": 1013309.23,
+    "4": 1026761.56,
+    "5": 1031714.02,
+    "6": 1064324.59,
+    "7": 1031747.58,
+    "8": 1048017.45,
+    "9": 989335.35,
+    "10": 999632.12,
+    "11": 1147265.9,
+    "12": 1281863.63
+  },
+  "sales_min": 209986.25,
+  "sales_max": 3818686.45,
+  "sales_mean": 1046664.4291079136,
+  "holiday_avg": 1128303.3924197531,
+  "regular_avg": 1041012.5008786324
+}
